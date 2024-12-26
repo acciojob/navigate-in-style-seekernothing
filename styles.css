@@ -1,21 +1,25 @@
-/*  your css code here. If applicable */
 nav {
     background-color: #D3D3D3;
     padding: 10px;
 }
 
 nav ul {
-    list-style: none;
-    margin: 0;
+    /* Remove default padding and margin from ul */
     padding: 0;
+    margin: 0;
+    /* Remove bullet points */
+    list-style: none;
 }
 
 nav li {
+    /* Make list items display horizontally */
     display: inline;
+    /* Add right margin between items */
     margin-right: 1rem;
 }
 
 nav a {
+    /* Make links more readable by removing default styling */
     text-decoration: none;
     color: black;
 }
